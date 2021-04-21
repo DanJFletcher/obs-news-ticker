@@ -1,8 +1,24 @@
-marquee {
-    padding: 50px;
+#marquee {
+    width: 100vw;
+    max-width: 100%;
+    padding: 100px;
+    overflow-x: hidden;
     font-family: sans-serif;
     background-color: #3D6FC8;
     color: white;
     font-size: 4rem;
     font-weight: bold;
-}
+  }
+  
+  #track {
+    position: absolute;
+    top: 55px;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 102s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(10%); }
+    to { transform: translateX(-50%); }
+  }

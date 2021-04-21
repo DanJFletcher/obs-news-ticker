@@ -11,11 +11,7 @@ const messages = [
     `HARMAN's Ignite Store Developers Portal provides a hub for Android Automotive devs...`,
 ]
 
-const marquee = document.createElement('marquee')
-marquee.setAttribute('scrollamount', 10)
-marquee.setAttribute('loop', 'infinite')
+const content = document.getElementById('content')
 
 const textNode = document.createTextNode(messages.join('\u00A0\u00A0\u00A0\u00A0|\u00A0\u00A0\u00A0\u00A0'))
-marquee.appendChild(textNode)
-
-document.getElementsByTagName('body')[0].appendChild(marquee)
+content.appendChild(textNode)
