@@ -1,0 +1,8 @@
+marquee {
+    padding: 50px;
+    font-family: sans-serif;
+    background-color: #3D6FC8;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
