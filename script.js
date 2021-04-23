@@ -7,6 +7,7 @@ const messages = [
     `TypeScript 4.3 introduces new "override" keyword.`,
     `Laravel 8.5.16 adds fix to ignore SQLite files on parallel testing.`,
     `Do you have news worth sharing? DM me.`
+    `Mortal Kombat comes out on HBO Max today.`
 ]
 
 const content = document.getElementById('content')
