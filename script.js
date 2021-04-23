@@ -1,5 +1,5 @@
 const messages = [
-    `Weather is not as big as we thought ~ Colin DeCarlo.`,
+    `Weather is not as big as we thought: Colin DeCarlo.`,
     `Lighting Talks next Friday. Don't forget to submit your talk!`,
     `Laravel Forge now has support for Laravel Octane.`,
     `Taylor opens PR for Laravel 8. Offers gracefull fallback when rotating app keys.`,
