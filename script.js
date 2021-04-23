@@ -1,17 +1,15 @@
 const messages = [
-    `NodeJS 16 officially released. See changelog for details.`,
-    `Growth Session: "Intro to Flutter" from 3:30 to 5:00pm -- Host: Andrii Denysenko`,
-    `Laravel Forge now has support for Laravel Octane`,
-    `Growth Session: "TypeScript Exercisms" from 3:30 to 5:00pm -- Host: Manny Canarte`,
-    `Vue 3.0 drops IE 11 support (RFC)`,
-    `Growth Session: "Lets Update our Website" from 4:00 to 5:00pm -- Host: Opeyemi Afolayan`,
-    `TypeScript announces 4.3 Beta`,
-    `ng-conf starts today`,
-    `Growth Session: "Help us write jest tests for Honorlock" from 4:00 to 5:00pm -- Host: Justin Bates`,
-    `HARMAN's Ignite Store Developers Portal provides a hub for Android Automotive devs...`,
+    `Weather is not as big as we thought ~ Colin DeCarlo.`,
+    `Lighting Talks next Friday. Don't forget to submit your talk!`,
+    `Laravel Forge now has support for Laravel Octane.`,
+    `Taylor opens PR for Laravel 8. Offers gracefull fallback when rotating app keys.`,
+    `Cypress introduces new "Component Test Runner" alpha in v7.0.`,
+    `TypeScript 4.3 introduces new "override" keyword.`,
+    `Laravel 8.5.16 adds fix to ignore SQLite files on parallel testing.`,
+    `Do you have news worth sharing? DM me.`
 ]
 
 const content = document.getElementById('content')
 
-const textNode = document.createTextNode(messages.join('\u00A0\u00A0\u00A0\u00A0|\u00A0\u00A0\u00A0\u00A0'))
+const textNode = document.createTextNode(messages.sort(() => 0.5 - Math.random()).join('\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0'))
 content.appendChild(textNode)

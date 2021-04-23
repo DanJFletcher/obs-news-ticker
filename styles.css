@@ -1,13 +1,16 @@
+@font-face {
+  font-family: 'dot-matrix';
+  src: url('./Arcade.ttf');
+}
 #marquee {
     width: 100vw;
     max-width: 100%;
-    padding: 100px;
+    height: 400px;
     overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: 'dot-matrix';
     background-color: #3D6FC8;
     color: white;
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 7rem;
   }
   
   #track {
@@ -19,6 +22,6 @@
   }
   
   @keyframes marquee {
-    from { transform: translateX(10%); }
+    from { transform: translateX(5%); }
     to { transform: translateX(-50%); }
   }
